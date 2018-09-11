@@ -16,9 +16,17 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Log.i("Lester", "Button clicked");
+                Log.i("Lester", "Button clicked");
                 ((TextView) findViewById(R.id.textView3)).setTextColor(
                         getResources().getColor(R.color.colorPrimaryDark));
+            }
+        });
+
+        findViewById(R.id.button2).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                findViewById(R.id.rootView).setBackgroundColor(
+                        getResources().getColor(R.color.orange));
             }
         });
     }

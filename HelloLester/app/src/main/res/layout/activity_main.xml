@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:id ="@+id/rootView"
     android:background="@color/colorAccent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
@@ -27,6 +28,15 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="85dp"
-        android:text="Button" />
+        android:text="Change Text Color" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="142dp"
+        android:text="Change View Color" />
 
 </RelativeLayout>
