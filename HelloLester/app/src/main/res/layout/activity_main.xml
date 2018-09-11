@@ -8,6 +8,13 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <EditText
+        android:layout_width="250sp"
+        android:layout_height="100sp"
+        android:id="@+id/editText"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp" />
 
     <TextView
         android:id="@+id/textView3"
@@ -38,5 +45,15 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="142dp"
         android:text="Change View Color" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="199dp"
+        android:text="Change Text"
+        android:textSize="24sp" />
 
 </RelativeLayout>
